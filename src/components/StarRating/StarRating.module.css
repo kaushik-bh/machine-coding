@@ -1,0 +1,21 @@
+.star-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.star {
+    cursor: pointer;
+}
+
+.circle {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+.active {
+    background-color: white;
+}
